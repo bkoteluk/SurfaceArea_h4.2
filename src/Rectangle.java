@@ -11,4 +11,9 @@ public class Rectangle {
     public String toString() {
         return "Prostokąt o bokach: a = " + sideA + ", b = " + sideB + " ";
     }
+
+    double calculatePerimeter() {
+
+        return 2*sideA + 2*sideB;
+    }
 }

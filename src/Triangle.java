@@ -14,4 +14,9 @@ public class Triangle {
     public String toString() {
         return "Trójkąt o bokach: a = " + sideA + ", b = " + sideB + ", c = " + sideC + " oraz wysokości h = " + height;
     }
+
+    double calculatePerimeter() {
+
+        return sideA + sideB + sideC;
+    }
 }
