@@ -1,6 +1,6 @@
 public class ShapeCalculator {
 
-    double sqereArea(Square square) {
+    double squareArea(Square square) {
         return square.side*square.side;
     }
 
